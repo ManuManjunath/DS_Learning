@@ -11,7 +11,7 @@ Median of 10, 12, 14, 16, 18, 20 = (14+16)/2 = 15
 
 ### Mode
 Most commonly occuring value  
-Mode of 2, 2, 3, 4, 4, 6, 6, 6, 6, 7, 8, 8, 9, 9, 9 = 6
+Mode of 2, 2, 3, 4, 4, 6, 6, 6, 6, 7, 8, 8, 9, 9, 9 = 6  
 Mode of 1, 2, 3, 4, 5 = No mode  
 Mode of 1, 2, 2, 4, 4, 5 = 2 and 4
 
