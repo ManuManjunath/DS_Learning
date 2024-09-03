@@ -78,4 +78,14 @@ $Standard error of mean = S / \sqrt{n}$
 S = Sample Standard Deviation  
 n = Sample Size
 
-## Central Limit Theorem
+#### Central Limit Theorem
+
+The sampling distribution of the mean approaches a normal distribution as the sample size increases.  
+> Normal distribution is often represented by a bell curve.  
+
+Population Proportion: % of individuals or elements in a population that share a certain characteristic.  
+
+Standard error of proportion:  
+$SE(p') = \sqrt{}(p' (1-p') / n)$  
+p' = Population Proportion  
+n = Sample Size  
