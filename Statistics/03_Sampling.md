@@ -43,13 +43,8 @@ Fairly representative.
 Quick and convenient.  
 It is required to know the size of the population. Or it will be difficult to choose the intervals.
 
-## Non Probability Sampling
 
-
-#### Sampling Bias
-When the sample is not representative of the population as a whole.  
-
-#### Types of Non Probability Sampling:
+## Types of Non Probability Sampling:
 * Convenience Sampling.
 > Members of a population are eacy to contact or reach.  
 Often shows Undercoverage Bias (Members of population are inadequately represented)
@@ -63,3 +58,24 @@ May be affected by Sampling Bias (Members may share similar characteristics)
 > Participants are selected based on the purpose of study.  
 Could lead to biased outcomes (Members are not likely to be representive of the overall population)
 
+#### Sampling Bias
+When the sample is not representative of the population as a whole.  
+
+## Sampling Distributions
+
+Statistic: Characteristic of a Sample.  
+Parameter: Characteristic of a Population.  
+
+Point Estimate: Uses a single Statistic value to estimate a population parameter.  
+
+Sampling Variability: How much an estimate varies between samples.  
+
+Standard Error: The standard deviation of a sample statistic.  
+Larger Standard Error = Sample values are more spread out.  
+Smaller Standard Error = Sample values are closer together.  
+
+$Standard error of mean = S / \sqrt{n}$  
+S = Sample Standard Deviation  
+n = Sample Size
+
+## Central Limit Theorem
