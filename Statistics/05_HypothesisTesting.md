@@ -55,3 +55,10 @@ Assumptions:
 ## 2 Sample test
 Determines whether or not 2 population parameters like 2 means or 2 proportions are equal to each other.  
 Used in A/B testing.
+
+#### 2 Sample T-test for means
+Assumptions:  
+* The 2 samples are independent of each other.
+* For each sample, the data is drawn randomly from a normally distributed population.  
+* The population standard deviation is unknown.
+
