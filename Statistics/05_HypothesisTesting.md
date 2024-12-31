@@ -11,6 +11,7 @@ The claim that the results of a test or experiment are not explainable by chance
 * Reject or Fail to reject the nul hypothesis.
 
 #### Nul Hypothesis
+Null hypothesis claims that any difference in the means is due to chance.  
 A statement that is assumed to be true unless there is convincing evidence to the contrary.  
 
 #### Alternative Hypothesis
