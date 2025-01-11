@@ -24,8 +24,8 @@ Has a finite number of possible values.
 Example: Types of Products, Education Level, etc
 
 #### Dependent and Independent Variables
-* Dependent Variables (X) are variables that a given model estimates, also known as response or outcome variables.
-* Independent Variables (Y) are variables that explain trends in the dependent variabe, also known as explanatory or predictor variables.
+* Dependent Variables (Y) are variables that a given model estimates, also known as response or outcome variables.
+* Independent Variables (X) are variables that explain trends in the dependent variabe, also known as explanatory or predictor variables.
 
 #### Correlation
 When 2 variables X & Y are related in a linear way, they are said to be correlated.  
