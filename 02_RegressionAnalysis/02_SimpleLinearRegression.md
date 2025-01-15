@@ -37,8 +37,34 @@ Each predictor variable ($X_i$) is linearly reated to the outcome variable (Y)
 To validate this, the data points when plotted, must appear to fall along a straight line.
 * Normality  
 The residuals or errors are normaly distributed.  
-To validate this, a quantile-quantile plot (Q-Q plot) of the residuals can be observed. If the points on the graph appear to fall in a straight diagonal line, then we can assume normality.
+To validate this, a quantile-quantile plot (Q-Q plot) of the residuals can be observed. If the points on the graph appear to fall in a straight diagonal line, then we can assume normality. This can be validatd after the mode is built.
 * Independent Observations  
 Each observation in the dataset is independent. Ensure there is no auto correlated data in the datasert.
 * Homoscedasticity  
-The variation of the residuals (errors) is constant or similar across the model. Homoscedasticity means "Having the same scatter"
+The variation of the residuals (errors) is constant or similar across the model. Homoscedasticity means "Having the same scatter". A Scatterplot of residuas and predicted values should form a random cloud.
+
+# Model Evaluation
+
+#### Confidence Band
+The area surrounding the line that describes the uncertainity around the predicted outcome at every value of X.
+
+#### Common Evaluation Metrics
+* $R^2$ (Co-efficient of determination)
+* Mean Squared Error (MSE)
+* Mean Absolute Error (MAE)
+
+#### $R^2$
+Measures the proportion of variation in the dependent variable (Y), explained by the independent variables (X).  
+If $R^2$ = 1, it means X explains 100% of the variance of Y.  
+A higher $R^2$ is better since it adds validity to any recommendation we make based on our analysis.
+
+#### MSE
+It is the average of the squared difference between the predicted and actual values.  
+Because of how MSE is calculated, MSE is very sensitive to large errors.
+
+#### MAE
+It is the average of the absolute difference between the predicted and actual values.  
+If your data has outliers that you want to ignore, you can use MAE, as it is not sensitive to large errors.
+
+#### Hold-out sample
+A random sample of observed data that is not used to fit the model.
