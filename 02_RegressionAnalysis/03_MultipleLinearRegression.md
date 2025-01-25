@@ -28,4 +28,11 @@ No two independent variables ($X_i$ and $X_j$) can be highly correlated with eac
 
 #### Variance Inflation Factors (VIF)
 Quantifies how correlated each independent variable is with all of the other independent variables.  
-Minimum value is 1. The larger the VIF, the more multicollinearity there is in the model.
+Minimum value of 1 means there is no correlation between the X variabe and other predictor variables in the model. The larger the VIF, the more multicollinearity there is in the model.
+
+#### How to handle multicollinearity
+* Drop one or more variables that have multicollinearity.
+* Create a new variable using existing data.
+
+#### Interaction Term
+A term that represents how the relationship between two independent variables is assocuated with changes in the mean of the dependent variable.
