@@ -85,3 +85,9 @@ Hyperparameters are parameters that can be set before the model is trained.
 
 #### Grid Search
 A tool to confirm that a model achieves its intended purpose by systematically checking every combination of hyperparameters to identify which set produces the best results based on the selected metric.
+
+##### Model Validation
+The set of processes and activities intended to verify that models are performing as expected.
+
+##### Cross Validation
+A process that uses different portions of the data to test and train a model on different iterations.
