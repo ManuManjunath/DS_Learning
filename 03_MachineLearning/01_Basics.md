@@ -75,3 +75,13 @@ They always point to a leaf node or other decision nodes within the tree.
 
 ##### Leaf Node
 The nodes where a final prediction is made.
+
+### Hyperparameter Tuning
+Hyperparameters are parameters that can be set before the model is trained.
+
+##### Hyperparameters for Decision Tree
+* Max Depth: Defines how "long" a decision tree can get (The depth between root node and leaf nodes)
+* Min Samples Leaf: Defines the minimum number of samples for a leaf node.
+
+#### Grid Search
+A tool to confirm that a model achieves its intended purpose by systematically checking every combination of hyperparameters to identify which set produces the best results based on the selected metric.
