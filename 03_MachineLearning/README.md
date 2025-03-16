@@ -91,3 +91,19 @@ The set of processes and activities intended to verify that models are performin
 
 ##### Cross Validation
 A process that uses different portions of the data to test and train a model on different iterations.
+
+#### Ensemble learning
+Building multiple models and aggregating their outputs to make a prediction.
+
+* Each individual model that compreises an Ensemble is a "base leaner"
+
+##### Bagging (Bootstrap + Aggregating)
+* Bootstrapping means Sampling with Replacement.
+* During aggregation, the predictions of all the individual models are aggregated to produce the final prediction.
+
+#### Random Forest
+Ensemble of decision trees trained on bootstrapped data with randomly selected features.
+
+##### Hyperparameters for Random Forest
+* max_features: Sepcifies the number of features that each tree randomly selects during training.
+* n_estimators: Specifies the number of trees your model will build in its ensemble.
