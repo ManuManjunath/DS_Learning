@@ -107,3 +107,40 @@ Ensemble of decision trees trained on bootstrapped data with randomly selected f
 ##### Hyperparameters for Random Forest
 * max_features: Sepcifies the number of features that each tree randomly selects during training.
 * n_estimators: Specifies the number of trees your model will build in its ensemble.
+
+### Boosting
+A technique that builds an ensemble of weak learners sequentialy, with each consequitive learner trying to correct the errors of the one that preceeded it.
+
+#### How is boosting different from Random Forest and Bagging?
+* Learners are build sequentially, not in parallel.
+* Not limited to tree-based models.
+
+### Adaptive Boosting (AdaBoost)
+A boosting methodology  where each consecuitive base learner assigns greater weight to the observations incorrectly predicted by the preceeding learner.
+
+### Gradient Boosting
+A boosting methodology where each base learner in the sequence is built to predict the residual errors of the model that preceeds it.
+
+> **GBMs or Gradient Boosting Machines**
+Model ensembles that use gradient bossting.
+
+#### Advantages of GBMs
+* High accuracy
+* Generally scalable
+* Work well with missing data
+* Don't require scaling (can handle outliers)
+
+#### Disadvantages of GBMs
+* Tuning many hyperparameters can be time consuming
+* Difficult to interpret
+* They're also called **Black Box Models** , which means its predictions cannot be precisely explained.
+* Can have difficulty with **extrapolation**, which is a model's ability to predict new values that fall outside the range of values in the training data.
+* Prone to overfitting if too many hyperparameters are tuned.
+
+#### XGBoost (Extreme Gradient Bossting)
+
+#### learning_rate (shrinkage)
+A hyperpatameter that determines how much weight is given to each consecutive tree's prediction in the final ensemble.
+
+#### min_child_weight
+A tree will not split a node if it results in any child node with less weight than this value.
